@@ -1,0 +1,21 @@
+"    config for sm@windows
+
+
+"    UI Editor Font
+set guifont=Roboto_Mono:h10
+
+"    GUI Window Position
+winpos -11 -11
+
+"    Set Lines and Columns / Window Size
+"set lines=39
+"set columns=172
+
+"    Open maximized
+au GUIEnter * simalt ~x
+
+"    Set Vim color scheme
+colorscheme torte
+
+"    Set Line Number color to red (shouldn't be here)
+hi LineNr guifg=red
