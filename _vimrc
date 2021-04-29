@@ -20,3 +20,6 @@ set clipboard=unnamed
 
 "    set the statusline
 set laststatus=2
+
+"    Map Ctrl-U to uppercase the current word in insert mode
+imap <c-u> <esc>viwUi
