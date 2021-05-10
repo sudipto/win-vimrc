@@ -47,3 +47,9 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 "    Reload the _gvimrc
 nnoremap <leader>sg :source $MYGVIMRC<cr>
+
+"    Compile cpp program
+nnoremap <leader>c :!g++ -Wall -Werror -Wextra -pedantic -std=c++17 %
+
+"    Remap jk to <esc> in insert mode
+inoremap jk <esc>
